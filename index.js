@@ -46,7 +46,7 @@ app.post('/new.html',function(req,res){
      con.query(sql,function(error,result){
         if(error) throw error;
         res.send('Appointment Booked Successfully!!!');
-        //res.send('Appointment Sucessfull !!!' +result.insertID);
+        
      });
 });
 
